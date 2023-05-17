@@ -10,7 +10,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/AudioKit/KissFFT", from: "1.0.0"),
         .package(url: "https://github.com/AudioKit/AudioKit", from: "5.5.0"),
-        .package(url: "https://github.com/AudioKit/AudioKitEX", from: "5.5.0"),
+        .package(url: "https://github.com/matu2kne/AudioKitEX", from: "v1.5.8-ae"),
     ],
     targets: [
         .target(name: "DunneAudioKit", dependencies: ["AudioKit", "AudioKitEX", "CDunneAudioKit"]),
