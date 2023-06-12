@@ -90,7 +90,7 @@ namespace DunneCore
 
     bool MultiSegmentEnvelopeGenerator::skipEmptySegments() //skips over any segment w/ length 0, so as to not influence the state of the envelope
     {
-        assert(segments);
+        //assert(segments);
 
         // skip any segments that are 0-length
         while(curSegIndex < segments->size()
