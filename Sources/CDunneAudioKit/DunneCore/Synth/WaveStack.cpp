@@ -30,7 +30,7 @@ namespace DunneCore
         kiss_fftr_cfg fwd = kiss_fftr_alloc(fftLength, 0, 0, 0);
         kiss_fftr_cfg inv = kiss_fftr_alloc(fftLength, 1, 0, 0);
 
-        assert(waveData.size() >= fftLength);
+        //assert(waveData.size() >= fftLength);
 
         // copy supplied wave data for octave 0
         for (int i=0; i < fftLength; i++) pData[0][i] = waveData[i];
